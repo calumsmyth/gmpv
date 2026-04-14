@@ -9,7 +9,7 @@ import SausageCanneliniRagu from '../pages/SausageCanneliniRagu';
 function Navbar() {
     return(
         <Router>
-            <nav className= "bg-purple-500 text-white p-8">
+            <nav className= "bg-purple-500 text-white p-">
                 <a href="/">Home</a>
                 <a href="BeefRagu">Beef Ragu</a>
                 <a href="CheesyTaco">Cheesy Taco</a>
