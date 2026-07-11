@@ -1,19 +1,22 @@
 import { useState } from 'react'
 import {BrowserRouter as Router} from 'react-router-dom';
 import './App.css'
-import Navbar from './components/Navbar'
-import MyRoutes from './components/routing/MyRoutes'
-import HamburgerMenu from './components/HamburgerMenu';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import MyRoutes from './components/routing/MyRoutes';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <Router>
-      <h1 className="bg-slate-500 text-white text-center text-4xl p-10">Gym Meal Prep</h1>
-      <HamburgerMenu />
+      <Header />
       <Navbar />
-      <MyRoutes />
+      <section className = "content mb-10 mt-10">    
+        <MyRoutes />
+      </section>
+      <Footer />
     </Router>
   )
 }
