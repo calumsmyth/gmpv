@@ -6,6 +6,7 @@ import ChickenChorizoJambalaya from '../../pages/ChickenChorizoJambalaya';
 import HighProtienOmletteWrap from '../../pages/HighProtienOmletteWrap';
 import PeriChickenHalloumi from '../../pages/PeriChickenHalloumi';
 import SausageCanneliniRagu from '../../pages/SausageCanneliniRagu';
+import GrilledCheesePizzaBurrito from '../../pages/GrilledCheesePizzaBurrito'; 
 
 const MyRoutes = () => {
     return(
@@ -17,6 +18,7 @@ const MyRoutes = () => {
             <Route path="/HighProtienOmletteWrap" element={<HighProtienOmletteWrap />} />
             <Route path="/PeriChickenHalloumi" element={<PeriChickenHalloumi />} />
             <Route path="/SausageCanneliniRagu" element={<SausageCanneliniRagu />} />
+            <Route path="/GrilledCheesePizzaBurrito" element={<GrilledCheesePizzaBurrito />} />
         </Routes>
     )
 }
