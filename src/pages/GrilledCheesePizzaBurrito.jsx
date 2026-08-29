@@ -3,7 +3,7 @@ const GrilledCheesePizzaBurrito = () => {
         <>
             <div id="GrilledCheesePizzaBurrito" className="flex flex-col gap-10 p-4">
                 <div id="page-title" className="flex justify-center items-center text-2xl">
-                    <h1 className="bg-green-600 text-white p-4">Grilled Cheese Pizza Burrito</h1>
+                    <h1 className= "p-4 h-full">Grilled Cheese Pizza Burrito</h1>
                 </ div>
 
                 <div id="ingredients" className="flex flex-col">

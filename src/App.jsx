@@ -12,8 +12,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <Navbar />
-      <section className = "content mb-10 mt-10">    
+      <section className = "content text-green-900 mb-10 mt-10">    
         <MyRoutes />
       </section>
       <Footer />

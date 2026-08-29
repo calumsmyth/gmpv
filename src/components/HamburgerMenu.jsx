@@ -12,7 +12,8 @@ const HamburgerMenu = () => {
         { to: "/ChickenChorizoJambalaya", label: "Chicken Chorizo Jambalaya" },
         { to: "/HighProtienOmletteWrap", label: "High Protein Omlette Wrap" },
         { to: "/PeriChickenHalloumi", label: "Peri Chicken Halloumi" },
-        { to: "/SausageCanneliniRagu", label: "Sausage Cannelini Ragu" }
+        { to: "/SausageCanneliniRagu", label: "Sausage Cannelini Ragu" },
+        { to: "/GrilledCheesePizzaBurrito", label: "Grilled Cheese Pizza Burrito"}
     ]
 
     const handleToggle = () =>{
@@ -26,7 +27,7 @@ const HamburgerMenu = () => {
                     size={30}
                     toggled={open}
                     toggle={setOpen}
-                    color="#00ff87"
+                    color="rgb(250, 177, 41)"
                 />
             </div>
 

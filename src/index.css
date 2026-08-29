@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 body {
+  background-color: #fdfdf8;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:fit-content;
 }
 
 code {
@@ -17,12 +19,43 @@ code {
 }
 
 h1 {
-  font-size: 3rem;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 2.4rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.hamburger-wrapper {
+  position: relative;
+  color: purple;
+}
+
+.mobile-nav-menu{
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 280px;
+  z-index: 1000;
+  background-color: #fdfdf8;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  padding: 4px;
+}
+
+.mobile-nav-link {
+  display: block;
+  color: black;
+  padding: 6px;
+  margin: 10px;
+  background: rgb(250, 177, 41);
+  border: 2px solid black;
+  border-radius: 14px;
+  text-align: center;
+
 }
 
