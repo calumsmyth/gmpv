@@ -30,6 +30,47 @@ h2 {
   font-weight: bold;
 }
 
+.search-category {
+    position: relative;
+}
+
+.recipe-dropdown {
+    position: absolute;
+
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 260px;
+    padding: 10px;
+
+    background-color: #fdfdf8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+    z-index: 1000;
+}
+
+.recipe-dropdown-link {
+    display: block;
+    padding: 10px;
+
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.recipe-dropdown-link:hover {
+    background-color: rgb(250, 177, 41);
+}
+
 .hamburger-wrapper {
   position: relative;
   display: flex;
