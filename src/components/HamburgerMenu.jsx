@@ -9,7 +9,7 @@ const HamburgerMenu = () => {
         { to: "/", label: "Home" },
         { to: "/GrilledCheesePizzaBurrito", label: "Grilled Cheese Pizza Burrito"},        
         { to: "/BeefRagu", label: "Beef Ragu" },
-        { to: "/CheesyTaco", label: "Cheesy Taco" },
+        { to: "/CheesyTacoRice", label: "Cheesy Taco Rice" },
         { to: "/ChickenChorizoJambalaya", label: "Chicken Chorizo Jambalaya" },
         { to: "/HighProtienOmletteWrap", label: "High Protein Omlette Wrap" },
         { to: "/PeriChickenHalloumi", label: "Peri Chicken Halloumi" },

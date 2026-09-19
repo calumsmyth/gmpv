@@ -1,9 +1,9 @@
-const CheesyTaco = () => {
+const CheesyTacoRice = () => {
     return (
         <>
-            <div id="GrilledCheesePizzaBurrito" className="flex flex-col gap-10 p-4">
+            <div id="cheesy-taco-rice" className="flex flex-col gap-10 p-4">
                 <div id="page-title" className="flex justify-center items-center text-2xl">
-                    <h1 className= "p-4 h-full">Grilled Cheese Pizza Burrito</h1>
+                    <h1 className= "p-4 h-full">Cheesy Taco Rice</h1>
                 </ div>
 
                 <div id="ingredients" className="flex flex-col">
@@ -23,7 +23,6 @@ const CheesyTaco = () => {
                 <div className="steps">
                     <h2>Steps</h2>
                         <ol className="list-decimal list-inside">
-                            <h2>Instructions</h2>
                             <li>Add fry light/ Olive oil and diced onion to a large frying pan. Fry on medium heat until onions start to turn golden.</li>
                             <li>As the onions begin to golden, add in beef mince and taco seasoning. Ensure to break up beef in pan with a wooden spoon and cook until meat is browned.</li>
                             <li>Once beef is browned, add dry rice, beef stock and tomatoe puree. Cover with a lid and leave to simmer for about 10-12 minutes, until rice has become fluffy and cooked.</li>
@@ -36,4 +35,4 @@ const CheesyTaco = () => {
     )
 }
 
-export default CheesyTaco;
+export default CheesyTacoRice;

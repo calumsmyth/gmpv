@@ -15,9 +15,9 @@ const recipes = [
         path: "/BeefRagu",
     },
     {
-        name: "Cheesy Taco",
+        name: "Cheesy Taco Rice",
         tags: ["Beef"],
-        path: "/CheesyTaco",
+        path: "/CheesyTacoRice",
     },
     {
         name: "Grilled Cheese Pizza Burrito",
