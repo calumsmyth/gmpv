@@ -25,9 +25,9 @@ const recipes = [
         path: "/GrilledCheesePizzaBurrito",
     },
     {
-        name: "High Protien Omelette Wrap",
+        name: "High Protein Omelette Wrap",
         tags: ["Vegetarian"],
-        path: "/HighProteinOmeletteWrap",
+        path: "/HighProteinOmletteWrap",
     },
     {
         name: "Sausage Cannelini Ragu",

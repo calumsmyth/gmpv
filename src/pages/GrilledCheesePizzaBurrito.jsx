@@ -17,7 +17,7 @@ const GrilledCheesePizzaBurrito = () => {
                             <li>10g Parmesan Cheese</li>
                             <li>Mozzorella to taste</li>
                             <li>30ml of hot sauce, or any topping sauce of your choice. Volumes may vary (optional)</li>
-                            <li>5 High Protien Wraps</li>                            
+                            <li>5 High Protein Wraps</li>                            
                             <br />
                             <li>1 Tablespoon of Salt</li>
                             <li>1 Tablespoon of Oregano</li>

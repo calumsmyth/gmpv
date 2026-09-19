@@ -1,7 +1,7 @@
-const HighProtienOmletteWrap = () => {
+const HighProteinOmletteWrap = () => {
     return (
         <>
-            <div id="high-protien-omlette-wrap" className="flex flex-col gap-10 p-4">
+            <div id="high-protein-omlette-wrap" className="flex flex-col gap-10 p-4">
                 <div id="page-title" className="flex justify-center items-center text-2xl">
                     <h1 className= "p-4 h-full">High Protein Omlette Wrap</h1>
                 </ div>
@@ -36,4 +36,4 @@ const HighProtienOmletteWrap = () => {
     )
 }
 
-export default HighProtienOmletteWrap;
+export default HighProteinOmletteWrap;

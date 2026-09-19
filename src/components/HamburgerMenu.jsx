@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
         { to: "/BeefRagu", label: "Beef Ragu" },
         { to: "/CheesyTacoRice", label: "Cheesy Taco Rice" },
         { to: "/ChickenChorizoJambalaya", label: "Chicken Chorizo Jambalaya" },
-        { to: "/HighProtienOmletteWrap", label: "High Protein Omlette Wrap" },
+        { to: "/HighProteinOmletteWrap", label: "High Protein Omlette Wrap" },
         { to: "/PeriChickenHalloumi", label: "Peri Chicken Halloumi" },
         { to: "/SausageCanneliniRagu", label: "Sausage Cannelini Ragu" }
 

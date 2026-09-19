@@ -8,7 +8,7 @@ function Navbar() {
                 <NavLink to="BeefRagu">Beef Ragu</NavLink>
                 <NavLink to="CheesyTacoRice">Cheesy Taco Rice</NavLink>
                 <NavLink to="ChickenChorizoJambalaya">Chicken and Chorizo Jambalaya</NavLink>
-                <NavLink to="HighProtienOmletteWrap">High Protien Omlette Wrap</NavLink>
+                <NavLink to="HighProteinOmletteWrap">High Protein Omlette Wrap</NavLink>
                 <NavLink to="PeriChickenHalloumi">Peri-Peri Chicken and Halloumi Rice</NavLink>
                 <NavLink to="SausageCanneliniRagu">Sausage & Cannelini Bean Ragu</ NavLink>
                 <NavLink to="GrilledCheesePizzaBurrito">Grilled Cheese Pizza Burrito</ NavLink>
